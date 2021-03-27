@@ -1,0 +1,18 @@
+{
+	// Eine Dokumentation im Format task.json finden Sie unter
+		// https://go.microsoft.com/fwlink/?LinkId=733558
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "catkin_make:debug",
+				"type": "shell",  
+				"command": "catkin_make",
+				"args": [],
+				"group": {"kind":"build","isDefault":true},
+				"presentation": {
+					"reveal": "always"
+				},
+				"problemMatcher": "$msCompile"
+			}
+		]
+	}		
